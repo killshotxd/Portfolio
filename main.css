@@ -65,6 +65,7 @@ hr {
 .list-item-inline {
   display: inline;
   padding: 0rem 0.5rem;
+  margin-right: 1rem;
 }
 
 /** navigation **/
@@ -74,6 +75,8 @@ hr {
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
+  position: fixed;
+  min-width: 100%;
 }
 
 .navigation .nav-brand {
