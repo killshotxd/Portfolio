@@ -65,6 +65,7 @@ hr {
 .list-item-inline {
   display: inline;
   padding: 0rem 0.5rem;
+  margin-right: 1rem;
 }
 
 /** navigation **/
@@ -74,6 +75,8 @@ hr {
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
+  position: fixed;
+  min-width: 100%;
 }
 
 .navigation .nav-brand {
@@ -166,12 +169,35 @@ hr {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 664px) {
   .link {
     padding: 0.2rem 0.2em;
   }
   .social-links {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+  }
+  .footer {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .link {
+    padding: 0.2rem 0.2em;
+  }
+  .social-links {
+    font-size: 0.5rem;
+  }
+  .footer {
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 392px) {
+  .link {
+    padding: 0.2rem 0.2em;
+  }
+  .social-links {
+    font-size: 0.4rem;
   }
   .footer {
     padding: 2rem;
