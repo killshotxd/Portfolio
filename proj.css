@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #dc2626;
+  --off-white: #f3f4f6;
+  --dark-gray: #6b7280;
+}
+
+hr {
+  margin: 2rem 0rem;
+}
+
+/** spaces **/
+
+.margin-md {
+  margin: 2rem;
+}
+
+.hero {
+  padding: 2rem;
+  padding-top: 5rem;
+}
+
+.hero .hero-img {
+  max-width: 80%;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
+}
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
