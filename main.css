@@ -14,7 +14,6 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-
 }
 
 hr {
@@ -75,26 +74,24 @@ hr {
 }
 
 /** navigation **/
-nav{
-  
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    /* height: 9vh; */
+nav {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  /* height: 9vh; */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
-  
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  50% {
+    background-position: 100% 50%;
   }
-  
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 .navigation {
   background-color: var(--primary-color);
@@ -188,26 +185,24 @@ nav{
 }
 
 /** footers **/
-footer{
-  
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    /* height: 100vh; */
+.footer {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  /* height: 100vh; */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
-  
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  50% {
+    background-position: 100% 50%;
   }
-  
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 .footer {
   background-color: var(--primary-color);
@@ -279,61 +274,90 @@ footer{
     padding: 2rem;
   }
 }
-.ani-text{
+.ani-text {
   text-align: center;
 }
 #pr-txt {
   margin-top: 1rem;
 }
 
-#text-1, #text-2 {
+#text-1,
+#text-2 {
   text-align: center;
 
-  margin-top:30px;
+  margin-top: 30px;
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
   font-size: 30px;
-  font-weight:500;
+  font-weight: 500;
   line-height: 2;
-  text-transform:uppercase;
-  color:#130b0b;
-  padding:0 5px;
+  text-transform: uppercase;
+  color: #130b0b;
+  padding: 0 5px;
 }
 
-#text-1 { 
-animation: showup 7s infinite;
+#text-1 {
+  animation: showup 7s infinite;
 }
 
 #text-2 {
-width:0px;
-animation: reveal 7s infinite;
+  width: 0px;
+  animation: reveal 7s infinite;
 }
 
 #text-2-span {
-margin-left:-200px;
-animation: slidein 7s infinite;
+  margin-left: -200px;
+  animation: slidein 7s infinite;
 }
 
 @keyframes showup {
-  0% {opacity:0;}
-  20% {opacity:1;}
-  80% {opacity:1;}
-  100% {opacity:0;}
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes slidein {
-  0% { margin-left:-800px; }
-  20% { margin-left:-800px; }
-  35% { margin-left:0px; }
-  100% { margin-left:0px; }
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
 }
 
 @keyframes reveal {
-  0% {opacity:0;width:0px;}
-  20% {opacity:1;width:0px;}
-  30% {width:auto;}
-  80% {opacity:1;}
-  100% {opacity:0;width:auto;}
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: auto;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: auto;
+  }
 }
-
